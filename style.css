@@ -22,7 +22,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999;
+    color: white;
     font-size: 15px;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.80857;
@@ -56,7 +56,7 @@ body.demos .container-fluid {
 }
 
 a {
-    color: #1f1f1f;
+    color: #a1aba1;
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -78,7 +78,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #1f1f1f;
+    color: white;
     margin: 0
 }
 
@@ -318,35 +318,27 @@ a img.aligncenter {
 	z-index: 3;
 }
 .header_style_01 .header-nav{
-	background: #ffffff;
+	background: #fff;
 }
 .header-nav .navbar-toggler span {
   background: #ffffff;
 }
 
 .header-nav .navbar-brand {
-	color: #111111;
+	color: rgb(20, 20, 113);
 	font-weight: 800;
 	position: relative;
 	font-size: 23px;
 }
-.header-nav .navbar-brand span {
-	 width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 12px;
-    right: -9px;
-    float: left;
-}
+
 
 .right-btn a{
 	/* display: inline-block; */
 	padding: 5px 20px;
 	font-size: 18px;
 	border: 1px solid #ffffff;
-	color: #ffffff;
-	background-color: rgb(99, 26, 26);
+	color: #fff;
+	background-color:rgb(20, 20, 113);
 	line-height: 25px;
 	float: right;
 	font-weight: 500;
@@ -358,7 +350,9 @@ a img.aligncenter {
 	border: 1px solid rgb(99, 26, 26);
 }
 
-/*Navbar Toogle*/
+
+
+    /*Navbar Toogle*/
 .navbar-toggler {
 	background: rgb(99, 26, 26);
 	border: none;
@@ -370,7 +364,7 @@ a img.aligncenter {
 	width: 22px;
 	height: 2px;
 	border-radius: 1px;
-	background: #fff;
+	background: rgb(99, 26, 26);
 }
 .navbar-toggler span + span {
 	margin-top: 4px;
@@ -380,22 +374,22 @@ a img.aligncenter {
 
 .navbar-expand-lg .navbar-nav .nav-link{
 	padding: 8px 15px;
-	font-size: 16px;
+	font-size: 25px;
 	border-bottom: 3px solid #ffffff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
 	background: none;
-	color:rgb(99, 26, 26);
+	color: rgb(20, 20, 113);
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	border-bottom: 3px solid rgb(20, 20, 113);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active{
 	background: none;
-	color: rgb(99, 26, 26);
+	color: black;
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	border-bottom: 3px solid rgb(20, 20, 113);
 }
 
 .header_style_01 .navbar-brand {
@@ -419,7 +413,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a {
-    color: rgb(99, 26, 26);
+    color: rgb(20, 20, 113);
 }
 
 .header_style_01 .navbar-right > li {
@@ -448,9 +442,6 @@ li.social-links a {
 	display: inline-block;
 }
 
-li.social-links a:hover {
-	color: rgb(99, 26, 26);
-}
 
 .header_style_01.fixed-menu{
 	position: fixed;
@@ -493,7 +484,7 @@ li.social-links a:hover {
 
 .header_style_01.fixed-menu{
 	padding: 15px 0px;
-	box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
+	box-shadow: 0 0 8px 0  rgb(26, 55, 99);
 }
 
 .navbar-nav li {
@@ -517,7 +508,7 @@ body.app_version .header_style_01.fixed-menu{
 -------------------------------------------------------------------*/
 
 .top-banner{
-	background: url(uploads/bg-img.jpg) bottom center no-repeat rgb(99, 26, 26);
+	background: url() bottom center no-repeat rgb(99, 26, 28);
 	height: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -552,19 +543,19 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #27ae60;
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: rgb(20, 20, 113);
 }
 
 .section.db {
-    background-color: #1f1f1f;
+    background-color: rgb(20, 20, 113);
 }
 
 .section.color1 {
-    background-color: #448AFF;
+    background-color: rgb(20, 20, 113);
 }
 
 .first-section {
@@ -575,7 +566,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .first-section h2 {
-    color: #ffffff;
+    color: white;
     font-size: 68px;
     font-weight: 600;
     text-transform: capitalize;
@@ -587,7 +578,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .first-section .lead {
     font-size: 21px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 0 0 40px;
     margin: 0;
     line-height: inherit;
@@ -608,8 +599,8 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .section-title p {
-    color: #999;
-    font-weight: 300;
+    color: white;
+    font-weight: 400;
     font-size: 18px;
     line-height: 33px;
     margin: 0;
@@ -627,7 +618,7 @@ body.app_version .header_style_01.fixed-menu{
 .section.colorsection p,
 .section.colorsection h3,
 .section.db h3 {
-    color: #ffffff;
+    color: white;
 }
 
 
@@ -636,7 +627,7 @@ body.app_version .header_style_01.fixed-menu{
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px #27ae60;
     position: relative;
     -webkit-transition-property: color;
     transition-property: color;
@@ -651,7 +642,7 @@ body.app_version .header_style_01.fixed-menu{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(99, 26, 26);
+    background: rgb(45, 26, 99);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -673,7 +664,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .cd-hero__btn:hover{
 	color: #ffffff;
-    background-color: rgb(99, 26, 26) !important;
+    background-color: rgb(45, 26, 99) !important;
 }
 
 .js-cd-slide::before{
@@ -681,7 +672,7 @@ body.app_version .header_style_01.fixed-menu{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(230,81,0,0.25);
+	background:  #27ae60;
 	left: 0px;
 	right: 0px;
 	top: 0px;
@@ -691,10 +682,10 @@ body.app_version .header_style_01.fixed-menu{
 
 .about-right h2{
 	font-size: 32px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .about-right p{
-	font-size: 16px; 
+	font-size: 21px; 
 	font-weight: 300;
 }
 
@@ -710,8 +701,8 @@ body.app_version .header_style_01.fixed-menu{
 	height: 90px;
 	text-align: center;
 	line-height: 90px;
-	background: rgb(99, 26, 26);
-	box-shadow: inset 0 0 0 10px rgba(51,51,51,0.6), 0 1px 2px rgba(0,0,0,0.1);
+	background: #fff;
+	box-shadow: inset 0 0 0 10px rgba(51,51,51,0.6), 0 1px 2px ;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -874,7 +865,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .how-its-work{
 	position: relative;
-	background: rgb(99, 26, 26);
+	background:  #1f1f1f;
 }
 .how-its-work .hc{
 	width: 25%;
@@ -901,7 +892,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .colon1, .colon2, .colon3, .colon4{
-	background: #333333;
+	background: #192a56;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
@@ -918,7 +909,7 @@ body.app_version .header_style_01.fixed-menu{
 
 
 #faqs{
-	background-color: rgb(99, 26, 26);
+	background-color:  #27ae60;
 }
 
 .accordion:before{
@@ -1168,7 +1159,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .tooltip-inner {
-    background: rgb(99, 26, 26); 
+    background: #f2f3f5; 
     color: #fff;
 }
 .tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
@@ -1196,7 +1187,7 @@ body.app_version .bootstrap-select .btn-light:hover{
     FOOTER
 -------------------------------------------------------------------*/
 
-.cac {
+.cal{
     background-color: #232323;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -1253,7 +1244,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .subscribe-form .subscribe-btn{
-	background: rgb(99, 26, 26);
+	background: #27ae60;
 	border: none;
 	border-radius: 0px;
 	color: #ffffff;
@@ -1269,12 +1260,12 @@ body.app_version .bootstrap-select .btn-light:hover{
 	top: 0;
 }
 .subscribe-form .subscribe-btn:hover{
-	background: #333333;
+	background: rgb(45, 26, 99);
 }
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: #27ae60;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -1305,7 +1296,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: #ffffff;
     padding: 0;
 	text-align: center;
 }
@@ -1528,7 +1519,7 @@ body.app_version .bootstrap-select .btn-light:hover{
     padding: 13px 40px;
     font-size: 18px;
     border: 1px solid #ececec !important;
-    color: #1f1f1f;
+    color:#3C3D41;
     background-color: transparent;
 }
 
