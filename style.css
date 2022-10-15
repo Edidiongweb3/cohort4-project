@@ -288,9 +288,9 @@ a img.aligncenter {
 .screen-reader-text:focus {
     background-color: #f1f1f1;
     border-radius: 3px;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 2px 2px #999;
     clip: auto !important;
-    color: #21759b;
+    color: #fff;
     display: block;
     font-size: 14px;
     font-size: 0.875rem;
@@ -325,7 +325,7 @@ a img.aligncenter {
 }
 
 .header-nav .navbar-brand {
-	color: rgb(20, 20, 113);
+	color: black;
 	font-weight: 800;
 	position: relative;
 	font-size: 23px;
@@ -338,7 +338,7 @@ a img.aligncenter {
 	font-size: 18px;
 	border: 1px solid #ffffff;
 	color: #fff;
-	background-color:rgb(20, 20, 113);
+	background-color:#232323;
 	line-height: 25px;
 	float: right;
 	font-weight: 500;
@@ -380,16 +380,16 @@ a img.aligncenter {
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
 	background: none;
-	color: rgb(20, 20, 113);
+	color: #27ae60;
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(20, 20, 113);
+	border-bottom: 3px solid #27ae60;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active{
 	background: none;
 	color: black;
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(20, 20, 113);
+	border-bottom: 3px solid #27ae60;
 }
 
 .header_style_01 .navbar-brand {
@@ -413,7 +413,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a {
-    color: rgb(20, 20, 113);
+    color: rgb(99, 26, 26);
 }
 
 .header_style_01 .navbar-right > li {
@@ -484,7 +484,7 @@ li.social-links a {
 
 .header_style_01.fixed-menu{
 	padding: 15px 0px;
-	box-shadow: 0 0 8px 0  rgb(26, 55, 99);
+	box-shadow: 0 0 8px 0 #fff;
 }
 
 .navbar-nav li {
@@ -547,15 +547,15 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .section.lb {
-    background-color: rgb(20, 20, 113);
+    background-color:#232323 ;
 }
 
 .section.db {
-    background-color: rgb(20, 20, 113);
+    background-color:#232323 ;
 }
 
 .section.color1 {
-    background-color: rgb(20, 20, 113);
+    background-color:#232323 ;
 }
 
 .first-section {
@@ -642,7 +642,7 @@ body.app_version .header_style_01.fixed-menu{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(45, 26, 99);
+    background: #074f25;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -664,7 +664,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .cd-hero__btn:hover{
 	color: #ffffff;
-    background-color: rgb(45, 26, 99) !important;
+    background-color:#074f25 !important;
 }
 
 .js-cd-slide::before{
@@ -724,11 +724,11 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .services-inner-box:hover {
-	box-shadow: inset 0 0 0 1px rgba(51,51,51,0.1), 0 1px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 0 0 0 1px #232323, 0 1px 2px #fff;
 }
 
 .services-inner-box:hover .ser-icon{
-	box-shadow: inset 0 0 0 1px rgba(51,51,51,0.1), 0 1px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 0 0 0 1px #232323, 0 1px 2px #fff;
 }
 
 
@@ -892,7 +892,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .colon1, .colon2, .colon3, .colon4{
-	background: #192a56;
+	background: #032310;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
@@ -925,7 +925,7 @@ body.app_version .header_style_01.fixed-menu{
 .accordion .card{
     border: none;
     border-radius: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 5px #fff;
     margin: 0 0 12px 50px;
     position: relative;
 }
@@ -948,7 +948,7 @@ body.app_version .header_style_01.fixed-menu{
     width: 15px;
     height: 15px;
     border-radius: 50px;
-    background: rgb(99, 26, 26);
+    background: #ffffff;
     border: 1px solid #333333;
     position: absolute;
     top: 50%;
@@ -963,7 +963,7 @@ body.app_version .header_style_01.fixed-menu{
     padding: 15px 55px 15px 30px;
     font-size: 20px;
     font-weight: 600;
-    color: #550527;
+    color: #fff;
     border: none;
     margin: 0;
     position: relative;
@@ -1080,7 +1080,7 @@ select.mobile-device {
 /*# sourceMappingURL=bootstrap-select.css.map */
 
 .bootstrap-select > .btn {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    background: #074f25 none repeat scroll 0 0;
     font-size: 15px;
     height: 33px;
     box-shadow: none !important;
@@ -1260,7 +1260,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 	top: 0;
 }
 .subscribe-form .subscribe-btn:hover{
-	background: rgb(45, 26, 99);
+	background: #074f25;
 }
 
 .copyrights {
@@ -1689,7 +1689,7 @@ body.app_version .dev-list .widget-title small{
      display: block
 }
  .highlight-title span {
-    background: cornflowerblue;
+    background:#032310;
     -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
      -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
      transition: transform ease-out 0.1s, background 0.2s;
@@ -1699,7 +1699,7 @@ body.app_version .dev-list .widget-title small{
     left: 0;
     padding: 0;
     z-index: -1;
-    box-shadow: inset 0 0 0 2px rgba(9,16,26,0.76);
+    box-shadow: inset 0 0 0 2px #fff;
     opacity: 0;
      -webkit-transform: scale(0.9);
     -moz-transform: scale(0.9);
