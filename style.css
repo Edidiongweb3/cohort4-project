@@ -177,7 +177,7 @@ html, body{
     margin-top: 3em ;
 }
 .hero_icon img{
-    width: 60px;
+    width: 40px;
     padding: 0 10px 0 10px;
 }
 .hero_icon img:hover{
@@ -219,16 +219,16 @@ div.aligncenter {
 
 a img.alignright {
     float: right;
-    margin: 10px 0 20px 20px;
+    margin: 8px 0 10px 20px;
 }
 
 a img.alignnone {
-    margin: 10px 20px 20px 0;
+    margin: 8px 10px 20px 0;
 }
 
 a img.alignleft {
     float: left;
-    margin: 10px 20px 20px 0;
+    margin: 8px 10px 20px 0;
 }
 
 a img.aligncenter {
